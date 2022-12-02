@@ -164,8 +164,9 @@
 							//.css('overflow-y', 'hide')
 							//.css('overflow-x', 'scroll')
 							.css('overflow-y', 'visible')
-							.css('overflow-x', 'visible')
-							
+							.css('overflow-x', 'scroll')
+							.css('overflow', 'visible')
+
 							.scrollLeft(0);
 						
 						$forward.show();
