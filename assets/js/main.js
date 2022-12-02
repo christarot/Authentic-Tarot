@@ -161,11 +161,9 @@
 					if (browser.mobile) {
 
 						$reel
-							.css('overflow-x', 'visible')
-							.css('overflow-y', 'visible')
-							.css('overflow', 'visible')
-							//.css('overflow-y', 'hide')
-							//.css('overflow-x', 'scroll')
+							
+							.css('overflow-y', 'hide')
+							.css('overflow-x', 'scroll')
 							
 							.scrollLeft(0);
 						
