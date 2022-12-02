@@ -21,11 +21,11 @@
 
 	// Breakpoints.
 		breakpoints({
-			wide:      [ '1281px',  '1680px' ],
-			normal:    [ '961px',   '1280px' ],
-			narrow:    [ '841px',   '960px'  ],
-			narrower:  [ '737px',   '840px'  ],
-			mobile:    [ null,      '736px'  ]
+			wide:      [ '1025px',  '1680px' ],
+			normal:    [ '769px',   '1024px' ],
+			narrow:    [ '481px',   '768px'  ],
+			narrower:  [ '321px',   '480px'  ],
+			mobile:    [ null,      '320px'  ]
 		});
 
 	// Play initial animations on page load.
@@ -50,9 +50,9 @@
 
 		// Button.
 			$(
-				'<div id="navButton">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-				'</div>'
+				//'<div id="navButton">' +
+					//'<a href="#navPanel" class="toggle"></a>' +
+				//'</div>'
 			)
 				.appendTo($body);
 
