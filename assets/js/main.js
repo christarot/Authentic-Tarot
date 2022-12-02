@@ -162,6 +162,8 @@
 
 						$reel
 							.css('overflow-x', 'visible')
+							.css('overflow-y', 'visible')
+							.css('overflow', 'visible')
 							//.css('overflow-y', 'hide')
 							//.css('overflow-x', 'scroll')
 							
