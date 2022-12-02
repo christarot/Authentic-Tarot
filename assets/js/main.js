@@ -162,8 +162,9 @@
 
 						$reel
 							//.css('overflow-y', 'hide')
+							//.css('overflow-x', 'scroll')
 							.css('overflow-y', 'visible')
-							.css('overflow-x', 'scroll')
+							.css('overflow-x', 'visible')
 							
 							.scrollLeft(0);
 						
