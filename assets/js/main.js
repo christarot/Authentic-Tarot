@@ -164,7 +164,7 @@
 							//.css('overflow-y', 'hidden')
 							//.css('overflow-x', 'visible')
 							//.css('overflow-y', 'visible')
-							//.css('overflow-x', 'scroll')
+							.css('overflow-x', 'scroll')
 							//.css('overflow', 'visible')
 
 							.scrollLeft(0);
